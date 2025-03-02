@@ -2,7 +2,6 @@ import streamlit as st
 import time
 
 def get_jayhawk_type(answers):
-    """Determine which Jayhawk persona matches the user and return corresponding image URL."""
     if answers.count("A") > max(answers.count("B"), answers.count("C"), answers.count("D")):
         return "The Classic Jayhawk (1941)", "https://github.com/navyan02/WhichJawhawkAreYou-/blob/main/ClassicJayhawk.png?raw=true"
     elif answers.count("B") > max(answers.count("A"), answers.count("C"), answers.count("D")):
