@@ -22,21 +22,23 @@ def get_jayhawk_type(answers):
 
 st.markdown("""
     <style>
-        /* Target the main container */
+        /* Set gradient background */
         [data-testid="stAppViewContainer"] {
-            background-color: #041667;
+            background: linear-gradient(to bottom, #1E3A8A, #2563EB);
         }
         /* Adjust the text styling */
         .big-title {
             font-size: 100px;
-            color: #0051BA;
+            color: #0A1A2B; /* Dark blue almost black */
             text-align: center;
             font-weight: bold;
+            font-family: "Comic Sans MS";
         }
         .sub-title {
             font-size: 50px;
             color: #E8000D;
             text-align: center;
+            font-family: "Comic Sans MS";
         }
         /* Style the button */
         .stButton>button {
@@ -45,6 +47,7 @@ st.markdown("""
             font-size: 20px;
             border-radius: 10px;
             padding: 10px;
+            font-family: "Comic Sans MS";
         }
         .stButton>button:hover {
             background-color: #E8000D;
@@ -52,8 +55,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<h1 style="font-size: 50px; color: #0051BA; text-align: center; font-weight: bold;">Which Jayhawk Are You?</h1>', unsafe_allow_html=True)
-st.markdown('<h2 style="font-size: 25px; color: #E8000D; text-align: center;">Answer these fun KU themed questions to find out!</h2>', unsafe_allow_html=True)
+st.markdown('<h1 style="font-size: 50px; color: #0A1A2B; text-align: center; font-weight: bold; font-family: Comic Sans MS;">Which Jayhawk Are You?</h1>', unsafe_allow_html=True)
+st.markdown('<h2 style="font-size: 25px; color: #E8000D; text-align: center; font-family: Comic Sans MS;">Answer these fun KU themed questions to find out!</h2>', unsafe_allow_html=True)
 
 # Questions
 questions = [
@@ -83,5 +86,3 @@ if st.button("Find My Jayhawk!"):
     st.success(f"You're {result_text}!")
     st.image(image_url, caption=result_text, use_container_width=True)
     st.balloons()
-
-
