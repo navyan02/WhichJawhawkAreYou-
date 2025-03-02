@@ -6,7 +6,7 @@ This is a **KU Jayhawk personality quiz** built with **Streamlit**. Answer fun K
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-repo/KU-Jayhawk-Quiz.git
+   git clone https://github.com/navyan02/WhichJawhawkAreYou-
    cd KU-Jayhawk-Quiz
 2. **Install Dependencies**
    ```bash
