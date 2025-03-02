@@ -1,6 +1,6 @@
-# KU Jayhawk Quiz 🏀
+# KU Jayhawk Quiz
 
-This is a **KU Jayhawk personality quiz** built with **Streamlit**. Answer fun KU-themed questions to find out which Jayhawk persona best matches you!
+This is a **KU Jayhawk personality quiz** built with **Streamlit**. Answer fun KU themed questions to find out which Jayhawk best matches you!
 
 ## How to Run 🏃‍♂️
 
@@ -16,10 +16,10 @@ This is a **KU Jayhawk personality quiz** built with **Streamlit**. Answer fun K
    streamlit run main.py
 
 **About the Project** 📌
-🏆 Answer KU related questions
-🖼️ See which Jayhawk you are
-🎉 Includes animations and GIFs
-🔵🔴 Styled with KU colors
+- 🏆 Answer KU related questions
+- 🖼️ See which Jayhawk you are
+- 🎉 Includes animations and GIFs
+- 🔵🔴 Styled with KU colors
 
 Enjoy the quiz and Rock Chalk, Jayhawk! ❤️💙
 
